@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0; padding: 0;
+			}
+			#header {
+				height: 30px;
+				background: red;
+			}
+			#header .head{
+				width: 750px;height: 30px;
+				background: gray;
+				margin: auto;
+			}
+			#banner{
+				height: 200px;
+				background: blueviolet;
+			}
+			#category{
+				width: 750px;height: 150px;
+				margin: auto;background: orchid;
+			}
+			#category .item{
+				width: 100px;height: 129px;
+				padding-left: 15px;
+				padding-top: 6px;
+				padding-bottom: 15px;
+				padding-right: 15px;
+				float: left;
+			}
+			#category .item.first{
+				padding-left: 0;
+			}
+			#category .item.last{
+				padding-right: 0;
+			}
+			#case{
+				height: 250px;
+				background: gray;
+			}
+			#case .text{
+				width: 750px;
+				margin: auto;
+				padding-top: 6px;
+				padding-bottom: 3px;
+				font-size: 15px;
+			}
+			#case .item-paper{
+				width: 750px;
+				overflow: auto;
+				margin: auto;
+			}
+			#case .item-paper .item{
+				width: 240px;
+				height: 150px;
+				float: left;
+				background: green;
+			}
+			#case .item-paper .item.mg{
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			#case p{
+				width: 750px;height: 71px;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				text-align: center;
+				color: aqua;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div class="head"></div>
+		</div>
+		<div id="banner"></div>
+		<div id="category">
+			<div class="item first"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item last"></div>
+		</div>
+		<div id="case">
+			<div class="text">
+				Case
+			</div>
+			<div class="item-paper">
+				<div class="item"></div>
+				<div class="item mg"></div>
+				<div class="item"></div>
+			</div>
+			<p>查看更多+</p>
+		</div>
+	</body>
+</html>
